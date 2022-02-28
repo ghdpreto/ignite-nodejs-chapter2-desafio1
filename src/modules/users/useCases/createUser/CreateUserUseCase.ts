@@ -11,6 +11,14 @@ class CreateUserUseCase {
 
   execute({ email, name }: IRequest): User {
     // Complete aqui
+    const existUser = this.usersRepository.findByEmail(email);
+
+    if (existUser) {
+      throw new Error("Email já cadastrado.");
+    }
+
+    const newUser = this.usersRepository.create({ email, name });
+    return newUser;
   }
 }
 
