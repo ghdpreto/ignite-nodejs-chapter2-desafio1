@@ -10,7 +10,8 @@
     "test:userModel": "jest src/__tests__/users/model/User.spec.ts",
     "test:userRepository": "jest src/__tests__/users/repositories/UsersRepository.spec.ts",
     "test:createUserUseCase": "jest /home/ghdpreto/Documentos/GitHub/ignite-nodejs-chapter2-desafio1/src/__tests__/users/useCases/CreateUserUseCase.spec.ts",
-    "test:listAllUserUseCase": "jest /home/ghdpreto/Documentos/GitHub/ignite-nodejs-chapter2-desafio1/src/__tests__/users/useCases/ListAllUsersUseCase.spec.ts"
+    "test:listAllUserUseCase": "jest /home/ghdpreto/Documentos/GitHub/ignite-nodejs-chapter2-desafio1/src/__tests__/users/useCases/ListAllUsersUseCase.spec.ts",
+    "test:showUserProfileUseCase": "jest /home/ghdpreto/Documentos/GitHub/ignite-nodejs-chapter2-desafio1/src/__tests__/users/useCases/ShowUserProfileUseCase.spec.ts"
   },
   "dependencies": {
     "express": "^4.17.1",
