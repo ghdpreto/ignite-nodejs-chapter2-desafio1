@@ -12,7 +12,8 @@
     "test:createUserUseCase": "jest src/__tests__/users/useCases/CreateUserUseCase.spec.ts",
     "test:listAllUserUseCase": "jest src/__tests__/users/useCases/ListAllUsersUseCase.spec.ts",
     "test:showUserProfileUseCase": "jest src/__tests__/users/useCases/ShowUserProfileUseCase.spec.ts",
-    "test:turnUserAdminUseCase": "jest src/__tests__/users/useCases/TurnUserAdminUseCase.spec.ts"
+    "test:turnUserAdminUseCase": "jest src/__tests__/users/useCases/TurnUserAdminUseCase.spec.ts",
+    "test:routes": "jest src/__tests__/routes.spec.ts"
   },
   "dependencies": {
     "express": "^4.17.1",
