@@ -9,11 +9,11 @@ class User {
       this.admin = false;
     }
   }
-  id: string;
+  id?: string;
 
   name: string;
 
-  admin: boolean;
+  admin?: boolean;
 
   email: string;
 

@@ -7,7 +7,8 @@
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
     "lint:fix": "eslint --fix . --ext ts,tsx",
     "test": "jest",
-    "test:userModel": "jest src/__tests__/users/model/User.spec.ts" 
+    "test:userModel": "jest src/__tests__/users/model/User.spec.ts",
+    "test:userRepository": "jest src/__tests__/users/repositories/UsersRepository.spec.ts" 
   },
   "dependencies": {
     "express": "^4.17.1",
